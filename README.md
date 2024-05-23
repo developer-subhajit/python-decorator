@@ -1,4 +1,4 @@
-# python-decorator
+# Python Decorators
 
 A curated list of python decorator resources.
 
