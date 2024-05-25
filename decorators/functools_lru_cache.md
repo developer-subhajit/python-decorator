@@ -7,9 +7,9 @@ import functools
 
 @functools.lru_cache(maxsize=32)
 def fibonacci(n):
-		if n < 2:
-				return n
-		return fibonacci(n-1) + fibonacci(n-2)
+    if n < 2:
+            return n
+    return fibonacci(n-1) + fibonacci(n-2)
 
 print(fibonacci(100))  # Computes and caches results
 print(fibonacci.cache_info())  # Outputs cache statistics
